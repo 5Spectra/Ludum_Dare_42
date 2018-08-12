@@ -137,10 +137,8 @@ public class GameManager : MonoBehaviour {
                 Tempo -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
-            Money += 100;
-        if (Input.GetKeyDown(KeyCode.Q))
-            BodyCount += bodyforreputation;
+        // if (Input.GetKeyDown(KeyCode.Q))            Money += 100;
+        //if (Input.GetKeyDown(KeyCode.Q))            BodyCount += bodyforreputation;
 
         if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
         {
